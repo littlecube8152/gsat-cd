@@ -8,7 +8,7 @@ var calculateCD = function () {
 }
 
 window.onload = function () {
-    window.moveTo(1320, 610);
+    window.moveTo( window.screen.availWidth - 250, window.screen.availHeight - 250);
     calculateCD();
     var t = setInterval(calculateCD, 1000);
 };
