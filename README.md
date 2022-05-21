@@ -1,5 +1,5 @@
 # GSAT-countdown
-![Showcase](showcase.png) 
+![Showcase](showcase.png)  
 A simple GSAT-countdown gadget.  
 Supports Task Scheduler (for Windows).  
 
