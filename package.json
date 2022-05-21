@@ -1,0 +1,14 @@
+{
+    "name": "gsat-cd",
+    "main": "index.html",
+    "window": {
+        "frame": false,
+        "resizable": false,
+        "toolbar": false,
+        "width": 200,
+        "height": 200,
+        "transparent": true,
+        "show_in_taskbar" : false,
+        "always_on_top" : true
+    }
+}

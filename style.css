@@ -1,0 +1,33 @@
+html {
+    font-family: 'Source Han Sans';
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+html,
+body {
+    height: 90%;
+}
+
+.wrapper {
+    height: 100%;
+    padding-top: 10px;
+    vertical-align: middle;
+}
+
+large {
+    display: inline-block;
+    font-size: 72px;
+    padding-right: 10px;
+}
+
+small {
+    font-size: 12px;
+}
+
+p {
+    display: inline-block;
+}
+
+div {
+    text-align: center;
+}
