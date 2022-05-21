@@ -1,4 +1,5 @@
 # GSAT-countdown
+![Download Counts](https://img.shields.io/github/downloads/littlecube8152/gsat-cd/total)  
 ![Showcase](showcase.png)  
 A simple GSAT-countdown gadget.  
 Supports Task Scheduler (for Windows).  
