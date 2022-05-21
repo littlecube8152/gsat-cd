@@ -1,0 +1,16 @@
+name: NW.js CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Zip files
+    - run: zip -r release.zip index.html main.js package.json style.css
