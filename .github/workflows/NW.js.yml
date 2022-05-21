@@ -12,5 +12,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Zip files
     - run: zip -r release.zip index.html main.js package.json style.css
+    - name: Zip files
