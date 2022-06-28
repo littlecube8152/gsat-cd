@@ -1,15 +1,24 @@
+var countdowns = require('./config/countdowns.json');
+var index = 0;
+
 var calculateCD = function () {
+    var failedp = document.getElementsByClassName('name');
+    index++;
+    index %= countdowns.length * 5;
+    [].forEach.call(failedp, function (element) {
+        element.textContent = countdowns[Math.floor(index / 5)].name;
+    });
     var failedp = document.getElementsByClassName('cd');
     [].forEach.call(failedp, function (element) {
         var epoch = Math.floor((new Date()).getTime() / 1000)
-        element.textContent = Math.ceil((1673539200 - epoch) / (24 * 60 * 60));
+        element.textContent = Math.ceil((countdowns[Math.floor(index / 5)].time - epoch) / (24 * 60 * 60));
     });
-
 }
 
 window.onload = function () {
-    window.moveTo( window.screen.availWidth - 250, window.screen.availHeight - 250);
+    window.moveTo(window.screen.availWidth - 250, window.screen.availHeight - 250);
     calculateCD();
+    index = 0;
     var t = setInterval(calculateCD, 1000);
 };
 

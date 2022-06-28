@@ -1,2 +1,7 @@
 # Releases
 *.zip
+
+# Icon not used
+*.ico
+*.svg
+icon.png
