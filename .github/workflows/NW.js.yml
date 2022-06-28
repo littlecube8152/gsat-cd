@@ -12,5 +12,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - run: zip -r release.zip . -i index.html main.js package.json style.css
+    - run: zip -r release.zip . -i index.html main.js package.json css config README.md
       name: Zip files
