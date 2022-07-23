@@ -12,3 +12,4 @@ A simple GSAT-countdown gadget.
 You can change the cowntdowns by editing `confing/countdowns.json`.  
 Each item in the list should coutain `name` indicating its name and `time` indicating the event's UNIX-time (converted to your time zone).  
 It is set to change event every `5` second.  
+After the change, it **may need a restart**.
