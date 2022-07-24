@@ -3,6 +3,12 @@
 ![Showcase](showcase.png)  
 A simple GSAT-countdown gadget.  
 
+## Feature
+- Simple, good-looking countdown gadget.
+- Capable of maintaining multiple events.
+- Automatically shows at the top of almost every window, notifying every time.
+- It's recommended to go with the task scheduler of your OS so you won't miss any events. 
+
 ## Installation
 1. Install NW.js: [https://nwjs.io/](https://nwjs.io/).  
 2. Download the latest release `gsat-cd.zip`.  
